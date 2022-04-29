@@ -1,0 +1,132 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.1)
+[debug] Load.defaultLoad until apply took 345.7348ms
+[debug]                       Load.loadUnit: plugins took 71.4211ms
+[debug]                       Load.loadUnit: defsScala took 0.4418ms
+[debug] [Loading] Scanning directory /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project/project
+[debug]                         Load.loadUnit: mkEval took 5.2386ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 12.8897 ms
+[info] loading settings for project play-scala-rest-api-example-build-build-build from metals.sbt ...
+[debug]                           Load.resolveProject(play-scala-rest-api-example-build-build-build) took 33.9763ms
+[debug]                         Load.loadTransitive: finalizeProject(Project(id play-scala-rest-api-example-build-build-build, base: /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project/project, plugins: List(<none>))) took 52.5553ms
+[debug] [Loading] Done in /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project/project, returning: (play-scala-rest-api-example-build-build-build)
+[debug]                       Load.loadUnit: loadedProjectsRaw took 2299.5879ms
+[debug]                       Load.loadUnit: cleanEvalClasses took 4.4215ms
+[debug]                     Load.loadUnit(file:/home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project/project/, ...) took 2382.8238ms
+[debug]                   Load.apply: load took 2480.8846ms
+[debug]                   Load.apply: resolveProjects took 4.6367ms
+[debug]                   Load.apply: finalTransforms took 61.2757ms
+[debug]                   Load.apply: config.delegates took 6.4654ms
+[debug]                   Load.apply: Def.make(settings)... took 297.8369ms
+[debug]                   Load.apply: structureIndex took 87.8436ms
+[debug]                   Load.apply: mkStreams took 1.452ms
+[info] loading project definition from /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                 Load.loadUnit: plugins took 6691.8683ms
+[debug]                 Load.loadUnit: defsScala took 0.0041ms
+[debug] [Loading] Scanning directory /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project
+[debug]                   Load.loadUnit: mkEval took 0.177ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.8991 ms
+[info] loading settings for project play-scala-rest-api-example-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(play-scala-rest-api-example-build-build) took 15.0943ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id play-scala-rest-api-example-build-build, base: /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project, plugins: List(<none>))) took 17.5427ms
+[debug] [Loading] Done in /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project, returning: (play-scala-rest-api-example-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 449.6289ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 0.3993ms
+[debug]               Load.loadUnit(file:/home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project/, ...) took 7143.0425ms
+[debug]             Load.apply: load took 7144.7868ms
+[debug]             Load.apply: resolveProjects took 0.0978ms
+[debug]             Load.apply: finalTransforms took 13.7875ms
+[debug]             Load.apply: config.delegates took 0.5893ms
+[debug]             Load.apply: Def.make(settings)... took 74.5545ms
+[debug]             Load.apply: structureIndex took 28.7897ms
+[debug]             Load.apply: mkStreams took 0.003ms
+[info] loading project definition from /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/play-scala-rest-api-example-build-build.json
+[success] Total time: 2 s, completed Apr 29, 2022, 10:39:01 AM
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 9039.7126ms
+[debug]           Load.loadUnit: defsScala took 0.0034ms
+[debug] [Loading] Scanning directory /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project
+[debug]             Load.loadUnit: mkEval took 0.1405ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2345 ms
+[info] loading settings for project play-scala-rest-api-example-build from metals.sbt,plugins.sbt ...
+[debug]               Load.resolveProject(play-scala-rest-api-example-build) took 11.5354ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id play-scala-rest-api-example-build, base: /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project, plugins: List(<none>))) took 13.2456ms
+[debug] [Loading] Done in /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project, returning: (play-scala-rest-api-example-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 730.9199ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.7519ms
+[debug]         Load.loadUnit(file:/home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/, ...) took 9771.888ms
+[debug]       Load.apply: load took 9773.7249ms
+[debug]       Load.apply: resolveProjects took 0.1ms
+[debug]       Load.apply: finalTransforms took 9.5375ms
+[debug]       Load.apply: config.delegates took 0.3019ms
+[debug]       Load.apply: Def.make(settings)... took 53.883ms
+[debug]       Load.apply: structureIndex took 20.8715ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/play-scala-rest-api-example-build.json
+[info] compiling 1 Scala source to /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/target/scala-2.12/sbt-1.0/classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.15. Compiling...

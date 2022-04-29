@@ -1,0 +1,49 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/project/Common.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/project/Common.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 1 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to /home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/target/scala-2.12/sbt-1.0/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.6.0:compile for Scala 2.12.15
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.15. Compiling...
+[debug] Creating plain compiler interface for 2.12.15.
+[debug]   > Arguments: 
+[debug] 	-d
+[debug] 	/tmp/sbt_e93248e6
+[debug] 	-nowarn
+[debug] 	-bootclasspath
+[debug] 	/home/theo/.sbt/boot/scala-2.12.15/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/home/theo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.6.0/compiler-interface-1.6.0.jar:/home/theo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.6.0/util-interface-1.6.0.jar:/home/theo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.6.0/compiler-bridge_2.12-1.6.0-sources.jar:/home/theo/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar:/home/theo/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar:/home/theo/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12-1.0.6.jar
+[debug] 	/tmp/sbt_72f187db/scala/ZincCompat.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/API.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/AbstractZincFile.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/Analyzer.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/CallbackGlobal.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/ClassName.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/Compat.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/CompilerBridge.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/ConsoleBridge.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/DelegatingReporter.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/Dependency.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/ExtractAPI.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/ExtractUsedNames.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/GlobalHelpers.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/InteractiveConsoleBridge.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/InteractiveConsoleFactoryBridge.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/InteractiveConsoleHelper.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/InteractiveConsoleResponse.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/JarUtils.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/JavaUtils.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/LocalToNonLocalClass.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/LocateClassFile.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/Log.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/Message.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/PlainNioFile.scala
+[debug] 	/tmp/sbt_72f187db/xsbt/ScaladocBridge.scala
+[debug]       

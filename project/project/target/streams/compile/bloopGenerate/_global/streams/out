@@ -1,0 +1,4 @@
+[debug] [play-scala-rest-api-example-build-build] Classpath dependencies List()
+[debug] [play-scala-rest-api-example-build-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'play-scala-rest-api-example-build-build' to '/home/theo/Development/code/projects/play-samples/play-scala-rest-api-example/project/project/.bloop/play-scala-rest-api-example-build-build.json'
+[success] Generated .bloop/play-scala-rest-api-example-build-build.json
